@@ -12,4 +12,4 @@ other_filters2 = (
 
 
 def command(commands: Union[str, List[str]]):
-    return filters.command(commands, CMD_MUSIC)
+    return filters.command(commands, "")
