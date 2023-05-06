@@ -52,7 +52,7 @@ async def member_permissions(chat_id: int, user_id: int):
 from Codexun.utils.administrator import adminsOnly
 
 
-@app.on_message(command(["pause", "op"]) & other_filters)
+@app.on_message(command(["/pause", "pause"]) & other_filters)
 async def pause(_, message: Message):
     if message.sender_chat:
         return await message.reply_text(
@@ -79,7 +79,7 @@ async def pause(_, message: Message):
     )
 
 
-@app.on_message(command(["resume", "or"]) & other_filters)
+@app.on_message(command(["/resume", "resume"]) & other_filters)
 async def resume(_, message: Message):
     if message.sender_chat:
         return await message.reply_text(
@@ -107,7 +107,7 @@ async def resume(_, message: Message):
         )
 
 
-@app.on_message(command(["end", "oe"]) & other_filters)
+@app.on_message(command(["/end", "end"]) & other_filters)
 async def stop(_, message: Message):
     if message.sender_chat:
         return await message.reply_text(
@@ -135,7 +135,7 @@ async def stop(_, message: Message):
         )
 
 
-@app.on_message(command(["skip", "os"]) & other_filters)
+@app.on_message(command(["/skip", "skip", "next"]) & other_filters)
 async def skip(_, message: Message):
     if message.sender_chat:
         return await message.reply_text(
@@ -173,7 +173,7 @@ async def skip(_, message: Message):
             )
 
 
-@app.on_message(filters.command(["cleandb", "oc"]))
+@app.on_message(filters.command(["/cleandb", "oc"]))
 async def stop_cmd(_, message):
     if message.sender_chat:
         return await message.reply_text(
