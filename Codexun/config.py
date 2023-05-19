@@ -10,13 +10,13 @@ load_dotenv()
 
 que = {}
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "BQBNI-P2ele45XAoq25aRLNOEc5jyHA__tmJ2dyVSnotOfhvAYrdgAI_g-1KAFrMT9Ng7edhk1taSk55CMZYlkiubKW0D3LjQb1Rs5Y2H2h4CnFtbZdg3MVWFEtIbIAJZjsmNI_TZUgOV5-_EK3Zh5t1mKmXF6CxNYc-R4pceGPFDDOQuRlrzM_TJIRN5TVhhDozRGei-PFd_xFafKvs4o3NKkNHDQ_EDaShN-pnd7Ar7mac6h48gj7Ry9lFM07eJL1bA8zIz7pb2b_pFB-MpVrEGybmk_heQkr-SkTlJDa1heKWG765dKGonvc9jeMayASJMj8kWACrX6JkshfjIrnJAAAAAUQujzgA")
-BOT_TOKEN = getenv("BOT_TOKEN", "5181191526:AAHQE0indJGdrFooBVWRXgSOoJjluwG0J9A")
+SESSION_NAME = getenv("SESSION_NAME", "BQA8rSiB3u7elgAtwCGUWsu74xxsL_G2-aSEBe5rLCvxDNJUNRSubB9ZJwK3yczUDSHu_NkoAO751NaJaSTLN49XUe0Q-yNdtaqBOB-ZR3f9re_P5hDGULf41MtYWR2rygc9qcmdC-fRE5ZzFq2V6C_hgnNsh7CMoir1nCUyjm7C1VAQiCDfjbBTiPgy37MZDxkFLohLH74W-BQxDVgUVK_UCEisHCMx8oO2DrXkcVH3QJpoxVxitXTKTmpghvayYOmH_ecWfC2m9qLshg5bHekAYNL_lOestSrQVE6347doV2pXsUzYz_9x0tiRJNxKVa-grcDUvIrtzU3I3I1raPIXAAAAAWFUxV8A")
+BOT_TOKEN = getenv("BOT_TOKEN", "5181191526:AAFJV8oyqjHW52trsQ2z01iORfDC782ohX0")
 BOT_NAME = getenv("BOT_NAME", "Resso Music")
 BOT_USERNAME = getenv("BOT_USERNAME", "Ressomusicbot")
-ASSID = int(getenv("ASSID", "5438869304"))
+ASSID = int(getenv("ASSID", "5927912799"))
 ASSNAME = getenv("ASSNAME", "Resso Assistant")
-ASSUSERNAME = getenv("ASSUSERNAME", "RessoMusicA")
+ASSUSERNAME = getenv("ASSUSERNAME", "RessoNewVsn")
 BOT_ID = int(getenv("BOT_ID", "5181191526"))
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/PavanMagar/CodexunMusicBot")
