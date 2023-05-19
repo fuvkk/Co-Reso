@@ -23,7 +23,7 @@ uvloop
 wget
 youtube-search-python
 youtube-search
-git+https://github.com/TeamCodexun/Downloadr.git
+git+https://github.com/kaalmous/downloader@kaal
 telegraph
 regex
 html5lib
